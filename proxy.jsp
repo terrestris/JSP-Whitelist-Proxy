@@ -26,17 +26,13 @@
  * 
  */
 String[] allowedHosts = {
-  "46.4.55.12",
-  "46.4.55.12:8080",
-  "46.4.15.197",
-  "46.4.15.197:8080",
-  "localhost",
-  "localhost:8080",
-  "www.globalmonitoring.de",
-  "search.twitter.com",
-  "news.google.com",
-  "emm.newsbrief.eu",
-  "www.a3mobile.com"
+    "www.openlayers.org", "openlayers.org", 
+    "labs.metacarta.com", "world.freemap.in", 
+    "prototype.openmnnd.org", "geo.openplans.org",
+    "sigma.openplans.org", "demo.opengeo.org",
+    "www.openstreetmap.org", "sample.azavea.com",
+    "v-swe.uni-muenster.de:8080", 
+    "vmap0.tiles.osgeo.org"
 };
 HttpURLConnection con = null;
 try {
