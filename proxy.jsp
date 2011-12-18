@@ -45,6 +45,8 @@ try {
 		response.setStatus(400);
 		out.println("ERROR 400: No target specified for proxy.");
 	}
+
+	// extract the host
 	String host = "";
 	host = reqUrl.split("\\/")[2];
 	boolean allowed = false;
@@ -96,12 +98,15 @@ try {
 		rd.close();
 	}
 	else {
+		// deny access via HTTP status code 502
 		response.setStatus(502);
 		out.println("ERROR 502: This proxy does not allow you to access that location.");
 	}
 
 } catch(Exception e) {
 	
+	// resond an internal server error with the stacktrace
+	// on exception
 	response.setStatus(500);
 	byte[] idata = new byte[5000];
 
