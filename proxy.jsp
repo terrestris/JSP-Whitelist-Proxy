@@ -26,13 +26,13 @@
  * 
  */
 String[] allowedHosts = {
-    "www.openlayers.org", "openlayers.org", 
-    "labs.metacarta.com", "world.freemap.in", 
-    "prototype.openmnnd.org", "geo.openplans.org",
-    "sigma.openplans.org", "demo.opengeo.org",
-    "www.openstreetmap.org", "sample.azavea.com",
-    "v-swe.uni-muenster.de:8080", 
-    "vmap0.tiles.osgeo.org"
+	"www.openlayers.org", "openlayers.org", 
+	"labs.metacarta.com", "world.freemap.in", 
+	"prototype.openmnnd.org", "geo.openplans.org",
+	"sigma.openplans.org", "demo.opengeo.org",
+	"www.openstreetmap.org", "sample.azavea.com",
+	"v-swe.uni-muenster.de:8080", 
+	"vmap0.tiles.osgeo.org"
 };
 HttpURLConnection con = null;
 try {
